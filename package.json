@@ -1,5 +1,5 @@
 {
-  "name": "mobelux/next-apollo",
+  "name": "@mobelux/next-apollo",
   "version": "1.0.14",
   "description":
     "React higher-order component for using the Apollo GraphQL client inside Next.js",
