@@ -32,7 +32,7 @@ export default apolloConfig => {
         // and extract the resulting data
         // Default req to an empty object in case we're trying to prefetch data on the client
         const { query, pathname, asPath, req = {} } = ctx;
-        const apollo = initApollo(apolloConfig, null, req.headers);
+        const apollo = initApollo(apolloConfig, null, ctx);
 
         // Provide the `url` prop data in case a GraphQL query uses it
         const url = { query, pathname };
